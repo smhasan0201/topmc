@@ -2,7 +2,7 @@
 
 #smartsig       1 
 withdamp       1
-hdamp 237.8775 ! 1.379*mtop
+hdamp 250 ! 1.379*mtop
 
 withnegweights 0   ! will generate also events with negative-weight 
 
