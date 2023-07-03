@@ -2,7 +2,7 @@
 
 #smartsig       1 
 withdamp       1
-hdamp 237.8775 ! 1.379*mtop
+hdamp 250 ! 1.379*mtop
 
 withnegweights 0   ! will generate also events with negative-weight 
 
@@ -22,13 +22,13 @@ numevts NEVENTS     ! number of events to be generated
 ih1   1           ! hadron 1 (1 for protons, -1 for antiprotons)
 ih2   1           ! hadron 2 (1 for protons, -1 for antiprotons)
 
-ebeam1 6500
-ebeam2 6500
+ebeam1 6800
+ebeam2 6800
 
 
 ! To be set only if using LHA pdfs
-lhans1 320900
-lhans2 320900
+lhans1 325500
+lhans2 325500
 
 ! Parameters to allow or not the use of stored data
 use-old-grid    1 ! if 1 use old grid if file pwggrids.dat is present (<> 1 regenerate)
